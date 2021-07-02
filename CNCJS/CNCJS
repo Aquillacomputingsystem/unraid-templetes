@@ -1,1 +1,48 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>cncjs</Name>
+  <Repository>cncjs/cncjs:master</Repository>
+  <Registry>https://hub.docker.com/r/cncjs/cncjs/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://hub.docker.com/r/cncjs/cncjs/</Support>
+  <Project>https://github.com/cncjs/cncjs</Project>
+  <Overview>A full-featured web interface for CNC controllers running Grbl, Marlin, Smoothieware, or TinyG.   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:5050]</WebUI>
+  <TemplateURL/>
+  <Icon>https://cnc.js.org/logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1625186504</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>A full-featured web interface for CNC controllers running Grbl, Marlin, Smoothieware, or TinyG.   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5050</HostPort>
+        <ContainerPort>8000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/cncjs</HostDir>
+      <ContainerDir>/cncjs/</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="/config" Target="/cncjs/" Default="" Mode="rw" Description="Container Path: /opt/cncjs" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/cncjs</Config>
+  <Config Name="port" Target="8000" Default="" Mode="tcp" Description="Container Port: 8000" Type="Port" Display="always" Required="false" Mask="false">5050</Config>
+  <Config Name="Webcam" Target="" Default="" Mode="" Description="Container Device: " Type="Device" Display="always" Required="false" Mask="false">/dev/</Config>
+  <Config Name="CNC" Target="" Default="" Mode="" Description="Container Device: " Type="Device" Display="always" Required="false" Mask="false">/dev/</Config>
+</Container>
 
