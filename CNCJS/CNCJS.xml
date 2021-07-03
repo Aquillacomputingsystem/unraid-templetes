@@ -9,9 +9,9 @@
   <Privileged>true</Privileged>
   <Support>https://hub.docker.com/r/cncjs/cncjs/</Support>
   <Project>https://github.com/cncjs/cncjs</Project>
-  <Overview>A full-featured web interface for CNC controllers running Grbl, Marlin, Smoothieware, or TinyG.   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Overview>
+  <Overview>A full-featured web interface for CNC controllers running Grbl, Marlin, Smoothieware, or TinyG.</Overview>
   <Category>Tools:</Category>
-  <WebUI>http://[IP]:[PORT:5050]</WebUI>
+  <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <TemplateURL/>
   <Icon>https://cnc.js.org/logo.png</Icon>
   <ExtraParams/>
@@ -20,12 +20,12 @@
   <DateInstalled>1625186504</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>A full-featured web interface for CNC controllers running Grbl, Marlin, Smoothieware, or TinyG.   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Description>
+  <Description>A full-featured web interface for CNC controllers running Grbl, Marlin, Smoothieware, or TinyG.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>5050</HostPort>
+        <HostPort>8000</HostPort>
         <ContainerPort>8000</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
@@ -41,7 +41,7 @@
   <Environment/>
   <Labels/>
   <Config Name="/config" Target="/cncjs/" Default="" Mode="rw" Description="Container Path: /opt/cncjs" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/cncjs</Config>
-  <Config Name="port" Target="8000" Default="" Mode="tcp" Description="Container Port: 8000" Type="Port" Display="always" Required="false" Mask="false">5050</Config>
+  <Config Name="port" Target="8000" Default="" Mode="tcp" Description="Container Port: 8000" Type="Port" Display="always" Required="false" Mask="false">8000</Config>
   <Config Name="Webcam" Target="" Default="" Mode="" Description="Container Device: " Type="Device" Display="always" Required="false" Mask="false">/dev/</Config>
   <Config Name="CNC" Target="" Default="" Mode="" Description="Container Device: " Type="Device" Display="always" Required="false" Mask="false">/dev/</Config>
 </Container>
