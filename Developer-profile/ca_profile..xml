@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/Alphacosmos/unraid-templetes/main/Developer-profile/Images/logo.png</Icon>
+  <Profile>
+    Just creating containers that I need that the CA store doesnt have. Mainly focussing on Media Server, Home Automation and 3d printing/CNC/engineering containers.
+  </Profile>
+  <DonateLinkhttps>https://paypal.me/justinkurban</DonateLink>
+  <DonateText>If you like my work please consider Donating.</DonateText>
+</Maintainer>
