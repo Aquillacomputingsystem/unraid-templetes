@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maintainer>
-  <Icon>https://raw.githubusercontent.com/Alphacosmos/unraid-templetes/main/Developer-profile/Images/logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Alphacosmos/unraid-templetes/main/Images/logo.png</Icon>
   <Profile>
     Just creating containers that I need that the CA store doesnt have. Mainly focussing on Media Server, Home Automation and 3d printing/CNC/engineering containers.
   </Profile>
