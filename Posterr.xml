@@ -12,12 +12,12 @@
   <Overview>Media display for Plex, sonarr and radarr</Overview>
   <Category>MediaServer:Other</Category>
   <WebUI>http://[IP]:[PORT:9876]</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/Alphacosmos/unraid-templetes/main/Posterr.xml</TemplateURL>
   <Icon>https://github.com/petersem/posterr/blob/master/public/favicons/android-chrome-512x512.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1621765227</DateInstalled>
+  <DateInstalled>1627461271</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description>Media display for Plex, sonarr and radarr</Description>
@@ -38,8 +38,8 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/Media/Themes/</HostDir>
-      <ContainerDir>/usr/src/app/public/randomthemes</ContainerDir>
+      <HostDir>/mnt/user/appdata/posterr/custom</HostDir>
+      <ContainerDir>/usr/src/app/public/custom</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
@@ -57,8 +57,8 @@
   </Environment>
   <Labels/>
   <Config Name="config" Target="/usr/src/app/config" Default="" Mode="rw" Description="appdata for Posterr config files" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/posterr</Config>
-  <Config Name="random themes" Target="/usr/src/app/public/randomthemes" Default="" Mode="rw" Description="Random themes folder" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Media/Themes/</Config>
   <Config Name="port" Target="3000" Default="" Mode="tcp" Description="Container Port: 3000" Type="Port" Display="always" Required="false" Mask="false">9876</Config>
   <Config Name="TZ" Target="TZ" Default="" Mode="" Description="Your local timezone" Type="Variable" Display="always" Required="false" Mask="false">AU</Config>
   <Config Name="BASEPATH" Target="BASEPATH" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Custom" Target="/usr/src/app/public/custom" Default="" Mode="rw" Description="Container Path: /usr/src/app/public/custom" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/posterr/custom</Config>
 </Container>
