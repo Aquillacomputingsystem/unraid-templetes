@@ -13,11 +13,11 @@
   <Category>MediaApp:Other</Category>
   <WebUI>http://[IP]:[PORT:5000]/</WebUI>
   <TemplateURL/>
-  <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Alphacosmos/unraid-templetes/main/Images/plex-library-cleaner.ico</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1628332765</DateInstalled>
+  <DateInstalled>1628333090</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description>A simple UI to help find and delete duplicate and sample files from your Plex server.   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Description>
