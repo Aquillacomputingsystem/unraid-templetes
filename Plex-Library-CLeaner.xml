@@ -11,7 +11,7 @@
   <Project>https://github.com/se1exin/Plex-Library-Cleaner</Project>
   <Overview>A simple UI to help find and delete duplicate and sample files from your Plex server.</Overview>
   <Category>MediaApp:Other</Category>
-  <WebUI>http://[IP]:[PORT:5000]/</WebUI>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/Alphacosmos/unraid-templetes/main/Images/plex-library-cleaner.ico</Icon>
   <ExtraParams/>
