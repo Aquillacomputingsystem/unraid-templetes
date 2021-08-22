@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>plex-library-cleaner</Name>
-  <Repository>selexin/plex-library-cleaner</Repository>
-  <Registry>https://hub.docker.com/r/selexin/plex-library-cleaner/</Registry>
+  <Name>Cleanarr</Name>
+  <Repository>selexin/cleanarr</Repository>
+  <Registry>https://hub.docker.com/r/selexin/cleanarr/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/112212-support-plex-library-cleaner/</Support>
-  <Project>https://github.com/se1exin/Plex-Library-Cleaner</Project>
+  <Project>https://github.com/se1exin/cleanarr</Project>
   <Overview>A simple UI to help find and delete duplicate and sample files from your Plex server.</Overview>
   <Category>MediaApp:Other</Category>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
@@ -20,12 +20,12 @@
   <DateInstalled>1628333090</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>A simple UI to help find and delete duplicate and sample files from your Plex server.   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Description>
+  <Description>A simple UI to help find and delete duplicate and sample files from your Plex server.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>5000</HostPort>
+        <HostPort></HostPort>
         <ContainerPort>80</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
@@ -33,7 +33,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/plex-library-cleaner</HostDir>
+      <HostDir>/mnt/user/appdata/cleanarr</HostDir>
       <ContainerDir>/frontend</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
