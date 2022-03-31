@@ -11,7 +11,7 @@
   <Project>https://github.com/petersem/posterr</Project>
   <Overview>Media display for Plex, sonarr and radarr</Overview>
   <Category>MediaServer:Other</Category>
-  <WebUI>http://[IP]:[PORT:9876]</WebUI>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Alphacosmos/unraid-templetes/main/Posterr.xml</TemplateURL>
   <Icon>https://github.com/petersem/posterr/blob/master/public/favicons/android-chrome-512x512.png?raw=true</Icon>
   <ExtraParams/>
