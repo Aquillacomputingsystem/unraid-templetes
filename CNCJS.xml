@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>cncjs</Name>
-  <Repository>cncjs/cncjs:v1.9.22</Repository>
+  <Repository>cncjs/cncjs:latest</Repository>
   <Registry>https://hub.docker.com/r/cncjs/cncjs/</Registry>
   <Network>bridge</Network>
   <MyIP/>
