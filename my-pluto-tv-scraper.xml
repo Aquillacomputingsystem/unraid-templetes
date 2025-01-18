@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>pluto-tv-scraper</Name>
+  <Repository>davidquinonescl/pluto-tv-scraper</Repository>
+  <Registry>https://hub.docker.com/r/davidquinonescl/pluto-tv-scraper/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/davidquinonescl/pluto-tv-scraper/</Support>
+  <Project/>
+  <Overview>Docker image of https://github.com/4v3ngR/pluto_tv_scraper.&#xD;
+&#xD;
+Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
+&#xD;
+https://hub.docker.com/r/davidquinonescl/pluto-tv-scraper/</Overview>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://images.sftcdn.net/images/t_app-icon-s/p/02feedba-9b28-11e6-a161-00163ec9f5fa/3388852323/pluto-tv-icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1736674443</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Container Port 1" Target="5050" Default="5050" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">5050</Config>
+  <Config Name="config" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/plutotvscraper</Config>
+  <Config Name="all" Target="all" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="outdir" Target="outdir" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/public</Config>
+  <Config Name="/public" Target="/public" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/xteve/</Config>
+  <TailscaleStateDir/>
+</Container>
